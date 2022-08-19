@@ -53,8 +53,6 @@ module.exports = (req, res) => {
         res.status(200).send(data.Location);
         return;
       });
-
-      // fs.writeFile("hihi.mp3", data.AudioStream, (fsErr) => {
       //   if (fsErr) {
       //     console.error(err);
       //     return;
